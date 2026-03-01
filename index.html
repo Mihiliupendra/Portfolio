@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihili Upendra </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        // Prevent browser from restoring scroll position
+        if (history.scrollRestoration) {
+            history.scrollRestoration = 'manual';
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Work Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education & Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm Mihili.
+                </h1>
+                <div class="profile-img-container">
+               <img src="assets/profile.png" alt="Mihili Upendra" class="profile-img">
+                </div>
+                <h2 class="hero-subtitle">Data Science Undergraduate and Aspiring Data Analyst</h2>
+                <p class="hero-description">
+                   I am an aspiring Data Analyst with a strong passion for transforming raw data into meaningful insights. 
+                   With a solid foundation in data science particularly in building predictive machine learning models to uncover trends and support strategic decision making.
+                   I have hands on experience using analytical tools such as Power BI, DAX Studio, and Excel, and I am proficient in developing Python scripts using libraries like NumPy and Pandas for data preprocessing, validation, and pattern detection.
+                    I enjoy exploring data, solving real world problems, and contributing to impactful, data driven solutions.
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Undergraduate Trainee - Operations Analyst</h3>
+                            <span class="timeline-company">IFS</span>
+                            <span class="timeline-date">March 2025 - Present</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Designed dashboards in Power BI, performing end to end ETL/ELT processes and building optimized data models to deliver actionable insights.</li>
+                            <li>Developed dashboards and timeline views in Jira using scripted JQL queries to track project progress, Investment Themes, Roadmaps, and delivery milestones with improved visibility and governance.</li>
+                            <li>Automated monthly pulse surveys and reminder workflows using Microsoft Power Automate, increasing process consistency and eliminating repetitive manual tasks.</li>
+                            <li>Built VBA-based automation solutions in Excel to schedule report refreshes and automate contractor cost reporting, significantly reducing manual workload.</li>
+                            <li>Developed Python validation scripts to perform large-scale data quality checks, standardize datasets, and enhance reporting accuracy.</li>
+                            <li>Contributed to AI tool license management and utilization analysis, supporting optimized license allocation, improving cost efficiency, and ensuring effective governance of enterprise AI resources.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-car project-icon"></i>
+                        <h3>Vehicle Price Prediction</h3>
+                    </div>
+                    <p class="project-description">
+                        Developed a machine learning model to predict vehicle prices based on various features.
+                         Utilized Python and Jupyter Notebook for model development and data preprocessing.
+                          Deployed the model using Streamlit to create an interactive web application, allowing users to input parameters and receive price predictions.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Data preprocessing</span>
+                        <span class="tech-tag">Jupyter Notebook</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Mihiliupendra/Car_Price_Prediction" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-shopping-cart project-icon"></i>
+                        <h3>E-commerce Recommendation System</h3>
+                    </div>
+                    <p class="project-description">
+                        Developed a recommendation system using Flask, MySQL, NumPy, and Pandas to enhance user experience by providing personalized product suggestions.
+                        Implemented data preprocessing, collaborative filtering, and content-based filtering techniques to improve recommendation accuracy.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Numpy</span>
+                        <span class="tech-tag">Pandas</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Mihiliupendra/Ecom_Recommendation_system-/tree/main/product" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-server project-icon"></i>
+                        <h3>Hospital Appointment Analytics & Data Warehousing System </h3>
+                    </div>
+                    <p class="project-description">
+                        
+                 Developed a DW & BI solution to improve hospital operations and financial performance.Designed a Star Schema with FactAppointment and key dimensions.
+                 Automated ETL pipelines in SSIS for multi-source data integration.
+                 Built SSAS OLAP cubes with time hierarchies and KPIs.
+                 Enabled advanced analytics (Roll-up, Drill-down, Slice, Dice).
+                 Delivered Power BI dashboards with live SSAS connections for real-time insights.
+
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">SSIS</span>
+                        <span class="tech-tag">SSAS</span>
+                        <span class="tech-tag">Power BI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Mihiliupendra/DWBI-ASSIGNMENT" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-laptop-medical project-icon"></i>
+                        <h3>Federated Learning for Healthcare (Final Year Research Project) </h3>
+                    </div>
+                    <p class="project-description">
+                        Developed a privacy preserving model for diabetes readmission prediction.
+                         Focuses on handling Non-IID data heterogeneity, implementing Fairness mechanisms, and ensuring model Explainability.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Deep Learning</span>
+                        <span class="tech-tag">Federated Learning</span>
+                        <span class="tech-tag">Fairness</span>
+                        <span class="tech-tag">Explainable AI</span>
+                        <span class="tech-tag">Research</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Mihiliupendra/Federated-Diabetes-Research" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Data Modeling</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">R(Basic)</div>
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">Power BI</div>
+                        <div class="skill-item">DAX Studio</div>
+                        <div class="skill-item">Excel</div>
+                        <div class="skill-item">Git</div>
+                         <div class="skill-item">Machine Learning</div>
+                        <div class="skill-item">Power Automate</div>
+                        <div class="skill-item">Jira</div>
+
+
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">Data Storytelling</div>
+                        <div class="skill-item">Analytical Thinking</div>
+                        <div class="skill-item">Adaptability</div>
+                        <div class="skill-item">Collaborative Teamwork</div>
+                        <div class="skill-item">Time Management</div>
+                        <div class="skill-item">Problem Solving</div>
+                        <div class="skill-item">Attention to Detail</div>
+                        <div class="skill-item">Continuous Learning</div>
+                        <div class="skill-item">Critical Thinking</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-header">
+                    <h3>BSc (Hons) in Information Technology Specializing in Data Science</h3>
+                    <span class="education-institution">SLIIT</span>
+                    <span class="education-date">2022 - Present</span>
+                </div>
+                <p class="education-description">
+                    Currently pursuing a BSc (Hons) in Information Technology specializing in Data Science, with hands-on exposure to data analysis, machine learning principles, and Python programming.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards & Certifications Section -->
+    <section id="awards" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-card-header">
+                        <i class="fas fa-certificate cert-card-icon"></i>
+                        <h4>Power BI for Beginners</h4>
+                    </div>
+                    <p class="cert-provider">Udemy</p>
+                    <a href="assets/PowerBI.png" target="_blank" class="cert-view-btn">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-card-header">
+                        <i class="fas fa-certificate cert-card-icon"></i>
+                        <h4>Python for Data Analysis </h4>
+                    </div>
+                    <p class="cert-provider">Udemy</p>
+                    <a href="assets/Python for Data Analytics.png" target="_blank" class="cert-view-btn">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-card-header">
+                        <i class="fas fa-certificate cert-card-icon"></i>
+                        <h4>AI/ML Engineer Stage 01</h4>
+                    </div>
+                    <p class="cert-provider">SLIIT</p>
+                    <a href="assets/SLIIT AI_ML Engineering stage1.png" target="_blank" class="cert-view-btn">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-card-header">
+                        <i class="fas fa-certificate cert-card-icon"></i>
+                        <h4>SQL : From Zero to Hero</h4>
+                    </div>
+                    <p class="cert-provider">Udemy</p>
+                    <a href="assets/SQL.png" target="_blank" class="cert-view-btn">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-card-header">
+                        <i class="fas fa-certificate cert-card-icon"></i>
+                        <h4>R Programming Complete Diploma</h4>
+                    </div>
+                    <p class="cert-provider">Udemy</p>
+                    <a href="assets/R.png" target="_blank" class="cert-view-btn">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+                  <div class="cert-card">
+                    <div class="cert-card-header">
+                        <i class="fas fa-certificate cert-card-icon"></i>
+                        <h4>Excel Mastery </h4>
+                    </div>
+                    <p class="cert-provider">Udemy</p>
+                    <a href="assets/Excel Mastery.png"target="_blank" class="cert-view-btn">
+                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    </a>
+                </div>
+            </div>
+                </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>
+                        I am passionate about connecting with data enthusiasts and exploring opportunities in data analysis and data science. Please feel free to get in touch!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/mihili-upendra/" target="_blank">
+                                LinkedIn Profile
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/Mihiliupendra" target="_blank">
+                                GitHub Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Mihili Upendra. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/mihili-upendra/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Mihiliupendra" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<div id="certModal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
